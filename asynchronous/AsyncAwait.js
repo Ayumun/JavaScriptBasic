@@ -1,5 +1,6 @@
 import fetch from 'node-fetch';
 
+// 関数を定義するときにはasyncをつけて、その中で非同期にしたい処理にawait
 // 非同期処理をおこなう関数を宣言
 const getGitUsername = async () => {
     const message = 'GitのユーザーIDは';
